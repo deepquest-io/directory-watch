@@ -10,6 +10,18 @@ You installed it in 2024. It was closed for a security problem in 2026. Nothing 
 
 ---
 
+## Screenshots
+
+**The inventory** — every installed plugin and theme with its directory status. Closed listings carry the closure date and the reason the directory gave.
+
+![Directory Watch inventory](screenshots/screenshot-1.png)
+
+**Settings** — check interval, batch size, theme scope and email alerts. All optional; the defaults work.
+
+![Directory Watch settings](screenshots/screenshot-2.png)
+
+---
+
 ## What it detects
 
 | Status | Meaning | What triggers it |

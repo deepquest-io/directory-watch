@@ -25,6 +25,7 @@ rsync -a \
   --exclude '.DS_Store' \
   --exclude 'PUBLISHING.md' \
   --exclude 'SECURITY-AUDIT.md' \
+  --exclude 'screenshots' \
   --exclude 'SUBMISSION.md' \
   --exclude '*.zip' \
   ./ "${STAGE}/${NAME}/"
