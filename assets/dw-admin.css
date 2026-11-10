@@ -1,0 +1,168 @@
+/* Directory Watch — admin styles */
+
+.dw-wrap h1 {
+	margin-bottom: 8px;
+}
+
+.dw-intro {
+	max-width: 780px;
+	margin-bottom: 18px;
+}
+
+.dw-stats {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	margin: 0 0 18px;
+}
+
+.dw-stat {
+	min-width: 132px;
+	padding: 14px 18px;
+	border: 1px solid #c3c4c7;
+	border-left: 4px solid #2271b1;
+	border-radius: 4px;
+	background: #fff;
+}
+
+.dw-stat span {
+	display: block;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 1.2;
+}
+
+.dw-stat small {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	color: #646970;
+}
+
+.dw-stat-ok {
+	border-left-color: #00a32a;
+}
+
+.dw-stat-bad {
+	border-left-color: #d63638;
+}
+
+.dw-stat-bad span {
+	color: #b32d2e;
+}
+
+.dw-actions {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 16px;
+}
+
+.dw-actions .button {
+	margin: 0;
+}
+
+.dw-table .dw-col-name {
+	width: 34%;
+}
+
+.dw-table .dw-col-version {
+	width: 10%;
+}
+
+.dw-table .dw-col-status {
+	width: 14%;
+}
+
+.dw-table .dw-col-checked {
+	width: 12%;
+}
+
+.dw-slug {
+	font-family: Menlo, Consolas, monospace;
+	font-size: 11px;
+	color: #646970;
+	margin-top: 2px;
+}
+
+.dw-detail {
+	font-size: 12px;
+}
+
+.dw-checked {
+	color: #646970;
+	font-size: 12px;
+}
+
+.dw-badge {
+	display: inline-block;
+	margin-left: 6px;
+	padding: 0 6px;
+	border-radius: 3px;
+	font-size: 10px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	vertical-align: 1px;
+}
+
+.dw-badge-active {
+	background: #edfaef;
+	color: #007017;
+}
+
+.dw-status {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 3px;
+	font-size: 11px;
+	font-weight: 600;
+	background: #f0f0f1;
+	color: #3c434a;
+}
+
+.dw-status-ok,
+.dw-status-listed {
+	background: #edfaef;
+	color: #007017;
+}
+
+.dw-status-closed,
+.dw-status-removed {
+	background: #fcf0f1;
+	color: #b32d2e;
+}
+
+.dw-status-transferred,
+.dw-status-renamed {
+	background: #fcf9e8;
+	color: #8a6d00;
+}
+
+.dw-status-unlisted,
+.dw-status-unknown {
+	background: #f0f0f1;
+	color: #646970;
+}
+
+.dw-events {
+	margin: 8px 0 24px;
+}
+
+.dw-events li {
+	margin: 0 0 6px;
+	padding: 6px 10px;
+	border-left: 3px solid #c3c4c7;
+	background: #f6f7f7;
+	font-size: 12px;
+}
+
+.dw-events li.dw-event-alert {
+	border-left-color: #d63638;
+	background: #fcf0f1;
+}
+
+.dw-events code {
+	margin-right: 8px;
+	color: #646970;
+}

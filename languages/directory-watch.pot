@@ -1,0 +1,282 @@
+# Copyright (C) 2026 deepquest
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Directory Watch 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/directory-watch\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-10T17:06:01+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: directory-watch\n"
+
+#. Plugin Name of the plugin
+#: directory-watch.php
+#: includes/class-dw-admin.php:41
+#: includes/class-dw-admin.php:42
+#: includes/class-dw-admin.php:214
+msgid "Directory Watch"
+msgstr ""
+
+#. Description of the plugin
+#: directory-watch.php
+msgid "Alerts you when a plugin or theme you run is closed, removed, renamed or transferred in the WordPress.org directory."
+msgstr ""
+
+#. Author of the plugin
+#: directory-watch.php
+msgid "deepquest"
+msgstr ""
+
+#: directory-watch.php:317
+msgid "Empty slug."
+msgstr ""
+
+#: directory-watch.php:374
+msgid "Unexpected response size."
+msgstr ""
+
+#: directory-watch.php:380
+msgid "Response was not valid JSON."
+msgstr ""
+
+#: directory-watch.php:416
+msgid "Closed in the directory."
+msgstr ""
+
+#. translators: %s: date the plugin was closed.
+#: directory-watch.php:421
+#, php-format
+msgid "Closed in the directory on %s."
+msgstr ""
+
+#. translators: %s: reason given by the directory.
+#: directory-watch.php:429
+#, php-format
+msgid "Reason: %s."
+msgstr ""
+
+#: directory-watch.php:446
+msgid "No longer listed in the directory."
+msgstr ""
+
+#: directory-watch.php:453
+msgid "Not hosted in the WordPress.org directory."
+msgstr ""
+
+#. translators: 1: previous author, 2: current author.
+#: directory-watch.php:476
+#, php-format
+msgid "Owner changed from %1$s to %2$s."
+msgstr ""
+
+#. translators: 1: previous name, 2: current name.
+#: directory-watch.php:492
+#, php-format
+msgid "Renamed from %1$s to %2$s."
+msgstr ""
+
+#: directory-watch.php:503
+msgid "Listed in the directory again."
+msgstr ""
+
+#. translators: %s: site name.
+#: directory-watch.php:725
+#, php-format
+msgid "[%s] A plugin or theme you run changed in the WordPress.org directory"
+msgstr ""
+
+#: directory-watch.php:732
+msgid "Directory Watch detected the following changes:"
+msgstr ""
+
+#. translators: %s: admin URL.
+#: directory-watch.php:749
+#, php-format
+msgid "Review the inventory: %s"
+msgstr ""
+
+#: includes/class-dw-admin.php:62
+msgid "Inventory"
+msgstr ""
+
+#: includes/class-dw-admin.php:118
+msgid "You are not allowed to run this check."
+msgstr ""
+
+#: includes/class-dw-admin.php:154
+msgid "Listed"
+msgstr ""
+
+#: includes/class-dw-admin.php:155
+msgid "Listed again"
+msgstr ""
+
+#: includes/class-dw-admin.php:156
+msgid "Closed"
+msgstr ""
+
+#: includes/class-dw-admin.php:157
+msgid "Removed"
+msgstr ""
+
+#: includes/class-dw-admin.php:158
+msgid "New owner"
+msgstr ""
+
+#: includes/class-dw-admin.php:159
+msgid "Renamed"
+msgstr ""
+
+#: includes/class-dw-admin.php:160
+msgid "Not in directory"
+msgstr ""
+
+#: includes/class-dw-admin.php:161
+#: includes/class-dw-admin.php:164
+msgid "Unknown"
+msgstr ""
+
+#: includes/class-dw-admin.php:218
+msgid "A check ran less than a minute ago. Wait a moment before running another."
+msgstr ""
+
+#. translators: 1: number of items checked, 2: number of changes.
+#: includes/class-dw-admin.php:228
+#, php-format
+msgid "Checked %1$d item(s). %2$d change(s) detected."
+msgstr ""
+
+#: includes/class-dw-admin.php:238
+msgid "Every installed plugin and theme is compared against the WordPress.org directory. A listing that closes, disappears, changes name or changes owner is reported here."
+msgstr ""
+
+#: includes/class-dw-admin.php:244
+msgid "Listed and normal"
+msgstr ""
+
+#: includes/class-dw-admin.php:248
+msgid "Needs attention"
+msgstr ""
+
+#: includes/class-dw-admin.php:252
+msgid "Not in the directory"
+msgstr ""
+
+#: includes/class-dw-admin.php:256
+msgid "Not checked yet"
+msgstr ""
+
+#: includes/class-dw-admin.php:263
+msgid "Check now"
+msgstr ""
+
+#. translators: %s: human readable time difference.
+#: includes/class-dw-admin.php:269
+#, php-format
+msgid "Last check: %s ago."
+msgstr ""
+
+#: includes/class-dw-admin.php:273
+msgid "Not checked yet — the first pass runs on the next cron tick, or press the button."
+msgstr ""
+
+#: includes/class-dw-admin.php:282
+msgid "Plugin / theme"
+msgstr ""
+
+#: includes/class-dw-admin.php:283
+msgid "Version"
+msgstr ""
+
+#: includes/class-dw-admin.php:284
+msgid "Directory status"
+msgstr ""
+
+#: includes/class-dw-admin.php:285
+msgid "Detail"
+msgstr ""
+
+#: includes/class-dw-admin.php:286
+msgid "Checked"
+msgstr ""
+
+#: includes/class-dw-admin.php:291
+msgid "No plugins or themes found."
+msgstr ""
+
+#: includes/class-dw-admin.php:304
+msgid "active"
+msgstr ""
+
+#: includes/class-dw-admin.php:309
+msgid "listing"
+msgstr ""
+
+#: includes/class-dw-admin.php:331
+msgid "ago"
+msgstr ""
+
+#: includes/class-dw-admin.php:332
+msgid "never"
+msgstr ""
+
+#: includes/class-dw-admin.php:342
+msgid "Change history"
+msgstr ""
+
+#. translators: 1: previous status, 2: new status.
+#: includes/class-dw-admin.php:351
+#, php-format
+msgid "%1$s to %2$s"
+msgstr ""
+
+#: includes/class-dw-admin.php:366
+msgid "Settings"
+msgstr ""
+
+#: includes/class-dw-admin.php:373
+msgid "Re-check each item every"
+msgstr ""
+
+#: includes/class-dw-admin.php:376
+msgid "hours"
+msgstr ""
+
+#: includes/class-dw-admin.php:377
+msgid "The directory changes slowly; daily is plenty. Shorter intervals only cost API calls."
+msgstr ""
+
+#: includes/class-dw-admin.php:381
+msgid "Items per run"
+msgstr ""
+
+#: includes/class-dw-admin.php:384
+msgid "How many items one cron pass may query. Larger sites are spread over several passes."
+msgstr ""
+
+#: includes/class-dw-admin.php:388
+msgid "Scope"
+msgstr ""
+
+#: includes/class-dw-admin.php:390
+msgid "Also watch installed themes"
+msgstr ""
+
+#: includes/class-dw-admin.php:394
+msgid "Email alerts"
+msgstr ""
+
+#: includes/class-dw-admin.php:396
+msgid "Email me when a listing is closed, removed or changes owner"
+msgstr ""
+
+#. translators: %s: email address.
+#: includes/class-dw-admin.php:401
+#, php-format
+msgid "Sent to %s using wp_mail()."
+msgstr ""
